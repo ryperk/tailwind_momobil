@@ -1,5 +1,3 @@
-import Header from '@/app/components/layout/header'
-import Footer from '@/app/components/layout/footer'
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -25,9 +23,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header/>
         {children}
-        <Footer/>
       </body>
     </html>
   );
