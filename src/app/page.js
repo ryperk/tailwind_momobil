@@ -4,8 +4,6 @@ import Product from "./components/home/product";
 import Footer from "@/app/components/layout/footer";
 import Blog from "@/app/components/home/blog";
 import Feature from "@/app/components/home/feature";
-import Image from "next/image";
-
 import {
   CloudArrowUpIcon,
   LockClosedIcon,
