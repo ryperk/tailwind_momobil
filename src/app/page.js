@@ -1,4 +1,5 @@
 import Header from "@/app/components/layout/header";
+import Carousel from "@/app/components/home/carousel";
 import Footer from "@/app/components/layout/footer";
 import Blog from "@/app/components/home/blog";
 import Feature from "@/app/components/home/feature";
@@ -58,6 +59,10 @@ export default function Page() {
           </div>
         </div>
       </div> */}
+
+      <main className="max-w-7xl mx-auto my-6">
+      <Carousel />
+      </main>
 
       <div className="">
         {/* <div

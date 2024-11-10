@@ -40,14 +40,14 @@ export default function Example() {
 
   return (
     <header className="bg-white border-b border-gray-200 ">
-      <nav aria-label="Global" className="flex max-w-7xl mx-auto items-center justify-between p-8 lg:py-4">
+      <nav aria-label="Global" className="flex max-w-7xl mx-auto items-center justify-between p-4 lg:px-0 lg:py-4">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img
               alt=""
-              src="/momobil_logo.svg"
-              className="h-10 w-auto"
+              src="/globe.svg"
+              className="h-8 w-auto"
             />
           </a>
         </div>
